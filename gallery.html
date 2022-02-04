@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body
+        {
+          margin:0;
+        }
+ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:black;
+}
+
+li {
+          float: left;
+          margin:0;
+        }
+ li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Verdana;
+            margin:0;
+            }
+
+li a:hover {
+        background-color:grey;
+        margin:0;
+        }
+    
+div.gallery {
+  margin: 80px;
+  border: 1px solid white;
+  float:left;
+  width: 500px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+html { 
+        background: url(a.jpg) no-repeat center fixed; 
+        background-size: cover;
+        }
+ h1
+        {
+            font-size: 50px;
+            font-family: Verdana;
+            text-transform: capitalize;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000000;
+        }       
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+      </ul>
+      <h1>GALLERY</h1>
+<div class="gallery">
+  <a target="_blank" href="1.jpg">
+    <img src="1.jpg" alt="Cinque Terre" width="1100" height="1100">
+  </a>
+  <div class="desc">GTA Vice City</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="2.jpg">
+    <img src="2.jpg" alt="Forest" width="1100" height="1100">
+  </a>
+  <div class="desc">GTA San Andreas</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="3.jpg">
+    <img src="3.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">GTA 3</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="4.jpg">
+    <img src="4.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">GTA 4</div>
+</div>
+
+</body>
+</html>
